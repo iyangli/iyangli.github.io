@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Comprehensive survival analysis of lane-changing duration</title>
+      <link href="/2023/03/01/laneChange/"/>
+      <url>/2023/03/01/laneChange/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>Lane-changing duration (LCD) measures the total time it takes for a vehicle to travel from the current lane to the target lane. However, there is still a paucity research on LCD up to now. In this paper, we present a comprehensive analysis of LCD from the perspective of survival analysis. Naturalistic vehicle trajectory HighD dataset is employed in this paper, which contains of 16.5 h of measurement and over 11,000 vehicles. Both comparative univariate and regression analysis has been conducted to research the characteristic of the whole survival function and the influencing factors of LCD. Results indicate that Generalized Gamma distribution has high degree of coincidence with the non-parametric method in estimating the survival function, and LoglogisticAFT model exhibits more credible results than other regression models. Furthermore, the results and modeling implications have been discussed. We hope this paper could contribute to our further understanding of LCD and LC behaviors.</p><h3 id="Analysis-framework"><a href="#Analysis-framework" class="headerlink" title="Analysis framework"></a>Analysis framework</h3><img src="/2023/03/01/laneChange/framework.png" width="600"><h3 id="HighD-dataset"><a href="#HighD-dataset" class="headerlink" title="HighD dataset"></a>HighD dataset</h3><img src="/2023/03/01/laneChange/highD.png" width="600"><h3 id="HighD-dataset-1"><a href="#HighD-dataset-1" class="headerlink" title="HighD dataset"></a>HighD dataset</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>A reproducible approach to merging behavior analysis based on High Definition Map</title>
       <link href="/2023/02/27/reproducibleanalysis/"/>
       <url>/2023/02/27/reproducibleanalysis/</url>
