@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Incorporating human factors into LCM using fuzzy TCI model</title>
+      <link href="/2023/03/28/carfollowing/"/>
+      <url>/2023/03/28/carfollowing/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@article&#123;</span><br><span class="line">    Yang Li, 2021</span><br><span class="line">    title=&#123;Incorporating human factors into LCM using fuzzy TCI model&#125;, </span><br><span class="line">    author=&#123;Yang Li and Linbo Li and Daiheng Ni&#125;,</span><br><span class="line">    year=&#123;2021&#125;,</span><br><span class="line">    journal=&#123;Transportmetrica B: Transport Dynamics&#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>Incorporation of Human Factors (HF) into the mathematical car-following (CF) models has always been the research hotspot. Ignorance of such inclusion would inevitably hinder us from acquiring a comprehensive understanding of traffic flow phenomena. This paper proposed a novel CF model in order to bridge three existing research gaps: the demand for more inclusion of HF into the Longitudinal Control Model (LCM); the requirement for a more desirable underlying CF model for the Task Capability Interface (TCI) model; the ignorance of the fuzziness of human brains when modeling Task Difficulty (TD). Specifically, in order to imitate driver’s natural or subjective uncertainty and ambiguity of his TD, the fuzzy logic approach is introduced, and the TD is then incorporated into the LCM. Thereafter, both numerical simulation and field-data validation have been performed. Results indicate that our proposed model is more capable of accommodating HF and exhibits better performance than its predecessor.</p><h3 id="Car-following-behavior"><a href="#Car-following-behavior" class="headerlink" title="Car-following behavior"></a>Car-following behavior</h3><img src="/2023/03/28/carfollowing/carfollowing.PNG" width="600"><h3 id="Human-factors-modeling"><a href="#Human-factors-modeling" class="headerlink" title="Human factors modeling"></a>Human factors modeling</h3><img src="/2023/03/28/carfollowing/humanfactors.PNG" width="600">]]></content>
+      
+      
+      <categories>
+          
+          <category> car-following behavior </category>
+          
+          <category> NGSIM dataset </category>
+          
+          <category> Model calibration </category>
+          
+          <category> Genertic algorithm </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars</title>
       <link href="/2023/03/25/laneChange2/"/>
       <url>/2023/03/25/laneChange2/</url>
@@ -13,11 +38,11 @@
       
       <categories>
           
-          <category> 车辆轨迹挖掘：lane-changing behavior </category>
+          <category> lane-changing behavior </category>
           
-          <category> 车辆轨迹挖掘：HighD dataset </category>
+          <category> HighD dataset </category>
           
-          <category> 车辆轨迹挖掘：生存分析 </category>
+          <category> 生存分析 </category>
           
       </categories>
       
@@ -36,11 +61,11 @@
       
       <categories>
           
-          <category> 车辆轨迹挖掘：lane-changing behavior </category>
+          <category> lane-changing behavior </category>
           
-          <category> 车辆轨迹挖掘：HighD dataset </category>
+          <category> HighD dataset </category>
           
-          <category> 车辆轨迹挖掘：生存分析 </category>
+          <category> 生存分析 </category>
           
       </categories>
       
@@ -59,11 +84,11 @@
       
       <categories>
           
-          <category> 车辆轨迹挖掘：merging behavior </category>
-          
-          <category> 车辆轨迹挖掘：exiD dataset </category>
-          
           <category> reproducible research </category>
+          
+          <category> merging behavior </category>
+          
+          <category> exiD dataset </category>
           
       </categories>
       
@@ -73,11 +98,11 @@
     
     
     <entry>
-      <title>Vehicle Trajectory Mining &amp; Driving Behavior Analysis</title>
+      <title>Vehicle Trajectory and Driving Behavior Analysis</title>
       <link href="/2023/02/27/intro/"/>
       <url>/2023/02/27/intro/</url>
       
-        <content type="html"><![CDATA[<p>The following are personal research results and shall not be forwarded without permission.</p><p>以下均为个人研究成果，未经许可不得转载。</p><h2 id="Lane-changing-Behavior-（换道行为挖掘与建模）"><a href="#Lane-changing-Behavior-（换道行为挖掘与建模）" class="headerlink" title="Lane-changing Behavior （换道行为挖掘与建模）"></a>Lane-changing Behavior （换道行为挖掘与建模）</h2><h3 id="换道行为示意图"><a href="#换道行为示意图" class="headerlink" title="换道行为示意图"></a>换道行为示意图</h3><img src="/2023/02/27/intro/lane-changing.PNG" width="600"><h3 id="变量特征热力图"><a href="#变量特征热力图" class="headerlink" title="变量特征热力图"></a>变量特征热力图</h3><img src="/2023/02/27/intro/heatmap.png" width="600"><h3 id="换道时长"><a href="#换道时长" class="headerlink" title="换道时长"></a>换道时长</h3><img src="/2023/02/27/intro/truckcarLCD.png" width="600"><h3 id="基于生存分析的换道行为差异研究"><a href="#基于生存分析的换道行为差异研究" class="headerlink" title="基于生存分析的换道行为差异研究"></a>基于生存分析的换道行为差异研究</h3><img src="/2023/02/27/intro/survivalcurve.PNG" width="500"><h3 id="换道行为影响"><a href="#换道行为影响" class="headerlink" title="换道行为影响"></a>换道行为影响</h3><img src="/2023/02/27/intro/trafficflowdensity.png" width="600"><h2 id="Car-following-Behavior-（跟驰行为挖掘与建模）"><a href="#Car-following-Behavior-（跟驰行为挖掘与建模）" class="headerlink" title="Car-following Behavior （跟驰行为挖掘与建模）"></a>Car-following Behavior （跟驰行为挖掘与建模）</h2><h3 id="跟车轨迹挖掘"><a href="#跟车轨迹挖掘" class="headerlink" title="跟车轨迹挖掘"></a>跟车轨迹挖掘</h3><table><thead><tr><th align="center"><img src="/2023/02/27/intro/carfollowing.png" alt="carfollowing"></th><th align="center"><img src="/2023/02/27/intro/cfdistribution.png" alt="cfdistribution"></th></tr></thead><tbody><tr><td align="center">NGSIM数据集前后车轨迹提取</td><td align="center">特征变量拟合</td></tr></tbody></table><h3 id="跟驰模型标定"><a href="#跟驰模型标定" class="headerlink" title="跟驰模型标定"></a>跟驰模型标定</h3><img src="/2023/02/27/intro/calibration.PNG" width="500"><h3 id="跟车行为人因建模"><a href="#跟车行为人因建模" class="headerlink" title="跟车行为人因建模"></a>跟车行为人因建模</h3><img src="/2023/02/27/intro/drivingbehavior.PNG" width="600"><h2 id="Merging-Behavior-汇入行为挖掘与建模）"><a href="#Merging-Behavior-汇入行为挖掘与建模）" class="headerlink" title="Merging Behavior (汇入行为挖掘与建模）"></a>Merging Behavior (汇入行为挖掘与建模）</h2><h3 id="汇入行为分析框架"><a href="#汇入行为分析框架" class="headerlink" title="汇入行为分析框架"></a>汇入行为分析框架</h3><img src="/2023/02/27/intro/merging.png" width="600"><h3 id="汇入高精地图"><a href="#汇入高精地图" class="headerlink" title="汇入高精地图"></a>汇入高精地图</h3><img src="/2023/02/27/intro/HDM.png" width="600"><h3 id="基于JS散度的汇入行为挖掘"><a href="#基于JS散度的汇入行为挖掘" class="headerlink" title="基于JS散度的汇入行为挖掘"></a>基于JS散度的汇入行为挖掘</h3><img src="/2023/02/27/intro/JSmerging.png" width="800"><h3 id="宏观交通流与微观汇入特性差异"><a href="#宏观交通流与微观汇入特性差异" class="headerlink" title="宏观交通流与微观汇入特性差异"></a>宏观交通流与微观汇入特性差异</h3><img src="/2023/02/27/intro/macroandmicro.png" width="800">]]></content>
+        <content type="html"><![CDATA[<p>The following are personal research results and shall not be forwarded without permission.</p><h2 id="Lane-changing-Behavior-（换道行为挖掘与建模）"><a href="#Lane-changing-Behavior-（换道行为挖掘与建模）" class="headerlink" title="Lane-changing Behavior （换道行为挖掘与建模）"></a>Lane-changing Behavior （换道行为挖掘与建模）</h2><h3 id="换道行为示意图"><a href="#换道行为示意图" class="headerlink" title="换道行为示意图"></a>换道行为示意图</h3><img src="/2023/02/27/intro/lane-changing.PNG" width="600"><h3 id="变量特征热力图"><a href="#变量特征热力图" class="headerlink" title="变量特征热力图"></a>变量特征热力图</h3><img src="/2023/02/27/intro/heatmap.png" width="600"><h3 id="换道时长"><a href="#换道时长" class="headerlink" title="换道时长"></a>换道时长</h3><img src="/2023/02/27/intro/truckcarLCD.png" width="600"><h3 id="基于生存分析的换道行为差异研究"><a href="#基于生存分析的换道行为差异研究" class="headerlink" title="基于生存分析的换道行为差异研究"></a>基于生存分析的换道行为差异研究</h3><img src="/2023/02/27/intro/survivalcurve.PNG" width="500"><h3 id="换道行为影响"><a href="#换道行为影响" class="headerlink" title="换道行为影响"></a>换道行为影响</h3><img src="/2023/02/27/intro/trafficflowdensity.png" width="600"><h2 id="Car-following-Behavior-（跟驰行为挖掘与建模）"><a href="#Car-following-Behavior-（跟驰行为挖掘与建模）" class="headerlink" title="Car-following Behavior （跟驰行为挖掘与建模）"></a>Car-following Behavior （跟驰行为挖掘与建模）</h2><h3 id="跟车轨迹挖掘"><a href="#跟车轨迹挖掘" class="headerlink" title="跟车轨迹挖掘"></a>跟车轨迹挖掘</h3><table><thead><tr><th align="center"><img src="/2023/02/27/intro/carfollowing.png" alt="carfollowing"></th><th align="center"><img src="/2023/02/27/intro/cfdistribution.png" alt="cfdistribution"></th></tr></thead><tbody><tr><td align="center">NGSIM数据集前后车轨迹提取</td><td align="center">特征变量拟合</td></tr></tbody></table><h3 id="跟驰模型标定"><a href="#跟驰模型标定" class="headerlink" title="跟驰模型标定"></a>跟驰模型标定</h3><img src="/2023/02/27/intro/calibration.PNG" width="500"><h3 id="跟车行为人因建模"><a href="#跟车行为人因建模" class="headerlink" title="跟车行为人因建模"></a>跟车行为人因建模</h3><img src="/2023/02/27/intro/drivingbehavior.PNG" width="600"><h2 id="Merging-Behavior-汇入行为挖掘与建模）"><a href="#Merging-Behavior-汇入行为挖掘与建模）" class="headerlink" title="Merging Behavior (汇入行为挖掘与建模）"></a>Merging Behavior (汇入行为挖掘与建模）</h2><h3 id="汇入行为分析框架"><a href="#汇入行为分析框架" class="headerlink" title="汇入行为分析框架"></a>汇入行为分析框架</h3><img src="/2023/02/27/intro/merging.png" width="600"><h3 id="汇入高精地图"><a href="#汇入高精地图" class="headerlink" title="汇入高精地图"></a>汇入高精地图</h3><img src="/2023/02/27/intro/HDM.png" width="600"><h3 id="基于JS散度的汇入行为挖掘"><a href="#基于JS散度的汇入行为挖掘" class="headerlink" title="基于JS散度的汇入行为挖掘"></a>基于JS散度的汇入行为挖掘</h3><img src="/2023/02/27/intro/JSmerging.png" width="800"><h3 id="宏观交通流与微观汇入特性差异"><a href="#宏观交通流与微观汇入特性差异" class="headerlink" title="宏观交通流与微观汇入特性差异"></a>宏观交通流与微观汇入特性差异</h3><img src="/2023/02/27/intro/macroandmicro.png" width="800">]]></content>
       
       
       
