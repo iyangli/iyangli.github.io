@@ -20,15 +20,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.vehicletrajectorymining.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="引入高经地图，对于汇入行为进行精细化挖掘">
+    <meta name="description" content="汇入行为分析">
 <meta property="og:type" content="article">
 <meta property="og:title" content="A reproducible approach to merging behavior analysis based on High Definition Map">
 <meta property="og:url" content="http://www.vehicletrajectorymining.com/2023/02/27/reproducibleanalysis/index.html">
 <meta property="og:site_name" content="轨迹说">
-<meta property="og:description" content="引入高经地图，对于汇入行为进行精细化挖掘">
+<meta property="og:description" content="汇入行为分析">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-02-27T12:30:06.000Z">
-<meta property="article:modified_time" content="2023-03-01T09:52:06.907Z">
+<meta property="article:modified_time" content="2023-03-28T11:50:01.477Z">
 <meta property="article:author" content="iyangli">
 <meta name="twitter:card" content="summary">
 
@@ -99,7 +99,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -112,6 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Citation"><span class="nav-number">1.</span> <span class="nav-text">Citation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Code-Structure"><span class="nav-number">2.</span> <span class="nav-text">Code Structure</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -126,13 +127,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
   </nav>
@@ -181,7 +182,7 @@
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
       <meta itemprop="name" content="A reproducible approach to merging behavior analysis based on High Definition Map | 轨迹说">
-      <meta itemprop="description" content="引入高经地图，对于汇入行为进行精细化挖掘">
+      <meta itemprop="description" content="汇入行为分析">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -204,7 +205,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-03-01 17:52:06" itemprop="dateModified" datetime="2023-03-01T17:52:06+08:00">2023-03-01</time>
+      <time title="Modified: 2023-03-28 19:50:01" itemprop="dateModified" datetime="2023-03-28T19:50:01+08:00">2023-03-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -234,7 +235,7 @@
     </span>
 </div>
 
-            <div class="post-description">引入高经地图，对于汇入行为进行精细化挖掘</div>
+            <div class="post-description">汇入行为分析</div>
         </div>
       </header>
 
@@ -242,7 +243,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        
+        <h3 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">@article&#123;</span><br><span class="line">    Yang Li, 2023</span><br><span class="line">    &quot;https://arxiv.org/abs/2303.11531&quot;</span><br><span class="line">    title=&#123;A reproducible approach to merging behavior analysis based on High Definition Map&#125;, </span><br><span class="line">    author=&#123;Yang Li and Yang Liu and Daiheng Ni and Ang Ji and Linbo Li and Yajie Zou&#125;,</span><br><span class="line">    year=&#123;2023&#125;,</span><br><span class="line">    eprint=&#123;2303.11531&#125;,</span><br><span class="line">    archivePrefix=&#123;arXiv&#125;,</span><br><span class="line">    primaryClass=&#123;cs.RO&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Code-Structure"><a href="#Code-Structure" class="headerlink" title="Code Structure"></a>Code Structure</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">A reproducible approach to merging behavior analysis based on High Definition Map/</span><br><span class="line">|__ asset: analysis results</span><br><span class="line">|    |__ acceptedGaps</span><br><span class="line">|    |__ backgroundPicture</span><br><span class="line">|    |__ consecutiveLaneChange</span><br><span class="line">|    |__ JSDivergence</span><br><span class="line">|    |__ preliminaryAnalysis</span><br><span class="line">|    |__ safetyAnalysis</span><br><span class="line">|    |__ table</span><br><span class="line">|    |__ trafficFlowSpeed</span><br><span class="line">|__ conf: experiment configurations</span><br><span class="line">|    |__ lanelet2map</span><br><span class="line">|__ drone-dataset-tools-master: dataset</span><br><span class="line">|__ src: merging trajectories extraction, indicators calculation, results visulization</span><br><span class="line">|    |__ extraction</span><br><span class="line">|    |__ figure</span><br><span class="line">|    |    |__accepetedGapAnalysis</span><br><span class="line">|    |    |__consecutiveLanechangeAnalysis</span><br><span class="line">|    |    |__preliminaryAnalysis</span><br><span class="line">|    |    |__safetyAnalysis</span><br><span class="line">|    |    |__similarityAnalysis</span><br><span class="line">|    |    |__trafficFlowSpeedDensity</span><br><span class="line">|    |__ table</span><br><span class="line">|__ utils: utility functions</span><br><span class="line">|__ requirements.txt: required packages</span><br></pre></td></tr></table></figure>
+
+<p><strong>Abstract:</strong><br>Existing research on merging behavior generally prioritize the application of various algorithms, but often overlooks the fine-grained process and analysis of trajectories. This leads to the neglect of surrounding vehicle matching, the opaqueness of indicators definition, and reproducible crisis. To address these gaps, this paper presents a reproducible approach to merging behavior analysis. Specifically, we outline the causes of subjectivity and irreproducibility in existing studies. Thereafter, we employ lanelet2 High Definition (HD) map to construct a reproducible framework, that minimizes subjectivities, defines standardized indicators, identifies alongside vehicles, and divides scenarios. A comparative macroscopic and microscopic analysis is subsequently conducted. More importantly, this paper adheres to the Reproducible Research concept, providing all the source codes and reproduction instructions. Our results demonstrate that although scenarios with alongside vehicles occur in less than 6% of cases, their characteristics are significantly different from others, and these scenarios are often accompanied by high risk. This paper refines the understanding of merging behavior, raises awareness of reproducible studies, and serves as a watershed moment.</p>
+<p><strong>Keywords:</strong><br>Merging Behavior, High Definition Map, Reproducible Research, exiD dataset.</p>
+<p><strong>Research bullets</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">1. Merging distance</span><br><span class="line">2. Merging distance ratio</span><br><span class="line">3. Merging duration</span><br><span class="line">4. Merging lateral trajectory</span><br><span class="line">5. Merging lateral speed</span><br><span class="line">6. Scenario classification</span><br><span class="line">7. Alongside vehicle identification</span><br><span class="line">8. HD map pre-labeling</span><br><span class="line">9. Standardized indicators</span><br><span class="line">10. Safety analysis</span><br><span class="line">11. Traffic flow-density-speed</span><br><span class="line">12. Accepted gap analysis</span><br><span class="line">13. Scenario similarity</span><br><span class="line">14. Consecutive lane-changing duration</span><br></pre></td></tr></table></figure>
+
     </div>
 
     
