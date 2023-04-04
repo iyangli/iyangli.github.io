@@ -20,30 +20,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.vehicletrajectorymining.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="换道行为分析">
+    <meta name="description" content="自主换道运动规划">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars">
-<meta property="og:url" content="http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/index.html">
+<meta property="og:title" content="Pareto-optimal lane-changing trajectory planning in mixed traffic">
+<meta property="og:url" content="http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/index.html">
 <meta property="og:site_name" content="轨迹说">
-<meta property="og:description" content="换道行为分析">
+<meta property="og:description" content="自主换道运动规划">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/distribution.PNG">
-<meta property="og:image" content="http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/survivalfunction.PNG">
-<meta property="article:published_time" content="2023-03-25T15:50:28.000Z">
-<meta property="article:modified_time" content="2023-03-28T12:00:32.269Z">
+<meta property="og:image" content="http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/02/26/paretoLTP/framework.png">
+<meta property="og:image" content="http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/02/26/paretoLTP/results.png">
+<meta property="article:published_time" content="2023-02-26T14:49:14.000Z">
+<meta property="article:modified_time" content="2023-04-04T05:55:53.542Z">
 <meta property="article:author" content="iyangli">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/distribution.PNG">
+<meta name="twitter:image" content="http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/02/26/paretoLTP/framework.png">
 
 
-<link rel="canonical" href="http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/">
+<link rel="canonical" href="http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/","path":"2023/03/25/laneChange2/","title":"Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/","path":"2023/02/26/paretoLTP/","title":"Pareto-optimal lane-changing trajectory planning in mixed traffic"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars | 轨迹说</title>
+<title>Pareto-optimal lane-changing trajectory planning in mixed traffic | 轨迹说</title>
   
 
 
@@ -115,7 +115,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Citation"><span class="nav-number">1.</span> <span class="nav-text">Citation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Abstract"><span class="nav-number">2.</span> <span class="nav-text">Abstract</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Distribution-of-heavy-vehicles-and-passenger-cars"><span class="nav-number">3.</span> <span class="nav-text">Distribution of heavy vehicles and passenger cars</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Citation"><span class="nav-number">1.</span> <span class="nav-text">Citation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Abstract"><span class="nav-number">2.</span> <span class="nav-text">Abstract</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Framework"><span class="nav-number">3.</span> <span class="nav-text">Framework</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Results"><span class="nav-number">4.</span> <span class="nav-text">Results</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -171,7 +171,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/">
+    <link itemprop="mainEntityOfPage" href="http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/touxiang.jpg">
@@ -184,16 +184,20 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars | 轨迹说">
-      <meta itemprop="description" content="换道行为分析">
+      <meta itemprop="name" content="Pareto-optimal lane-changing trajectory planning in mixed traffic | 轨迹说">
+      <meta itemprop="description" content="自主换道运动规划">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars
+          Pareto-optimal lane-changing trajectory planning in mixed traffic
         </h1>
 
         <div class="post-meta-container">
                   
+            <i class="fa fa-thumb-tack"></i>
+            <font color=7D26CD>置顶</font>
+            <span class="post-meta-divider">|</span>
+          
           <div class="post-meta">
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -201,14 +205,14 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2023-03-25 23:50:28" itemprop="dateCreated datePublished" datetime="2023-03-25T23:50:28+08:00">2023-03-25</time>
+      <time title="Created: 2023-02-26 22:49:14" itemprop="dateCreated datePublished" datetime="2023-02-26T22:49:14+08:00">2023-02-26</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-03-28 20:00:32" itemprop="dateModified" datetime="2023-03-28T20:00:32+08:00">2023-03-28</time>
+      <time title="Modified: 2023-04-04 13:55:53" itemprop="dateModified" datetime="2023-04-04T13:55:53+08:00">2023-04-04</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -224,7 +228,11 @@
         </span>
           , 
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/" itemprop="url" rel="index"><span itemprop="name">生存分析</span></a>
+          <a href="/categories/lane-changing-decision-making/" itemprop="url" rel="index"><span itemprop="name">lane-changing decision-making</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/motion-planning/" itemprop="url" rel="index"><span itemprop="name">motion-planning</span></a>
         </span>
     </span>
 
@@ -238,7 +246,7 @@
     </span>
 </div>
 
-            <div class="post-description">换道行为分析</div>
+            <div class="post-description">自主换道运动规划</div>
         </div>
       </header>
 
@@ -246,17 +254,13 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h3 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@article&#123;</span><br><span class="line">    Yang Li, 2022</span><br><span class="line">    title=&#123;Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars&#125;, </span><br><span class="line">    author=&#123;Yang Li and Linbo Li and Daiheng Ni&#125;,</span><br><span class="line">    year=&#123;2022&#125;,</span><br><span class="line">    journal=&#123;Journal of Transportation Engineering, Part A: Systems&#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h3 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@article&#123;</span><br><span class="line">    Yang Li, 2022, arXiv:2109.06080, 2021.</span><br><span class="line">    title=&#123;Pareto-optimal lane-changing trajectory planning in mixed traffic&#125;, </span><br><span class="line">    author=&#123;Yang Li and Linbo Li and Daiheng Ni&#125;,</span><br><span class="line">    year=&#123;2022&#125;,</span><br><span class="line">    archivePrefix=&#123;arXiv&#125;,</span><br><span class="line">    primaryClass=&#123;cs.RO&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>This paper applies the pareto-optimal concept to LC (lane-changing) motion planning in the presence of mixed traffic including manual and autonomous vehicles. Firstly, a multiobjective optimization problem is presented, in which the comfort, efficiency and safety of the LC vehicle and the surrounding vehicles are jointly modelled. Thereafter, the pareto-optimal solutions are obtained through employing the NSGA-II (Non-dominated Sorting Genetic -II) algorithm. Finally, the experiment section analyzes the (macroscopic and microscopic) lane-changing impact from a pareto-optimal perspective. Also, a comprehensive sensitivity analysis is conducted. Our results demonstrate that our algorithm could significantly reduce the lane-changing impact within its region, and the total costs are reduced in the range of 10.94% to 48.66%. This paper could be considered as a preliminary research framework for the application of the pareto-optimal concept. We hope this research will provide valuable insights into autonomous driving technology.</p>
+<h3 id="Framework"><a href="#Framework" class="headerlink" title="Framework"></a>Framework</h3><img src="02/26/paretoLTP/framework.png" width="600">
 
 
-<h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>In contrast to passenger cars, the lane-changing (LC) behavior of heavy vehicles has a more profound impact on traffic flow. This paper investigates LC duration characteristics for heavy vehicles and passenger cars through comparative univariate and regression survival analysis. LC events are extracted from the HighD dataset. Five commonly-used univariate survival models are introduced to explore the overall survival function of LC duration between passenger cars and heavy vehicles. Three accelerate failure time models are employed to investigate the difference of the influencing factors of LC duration. Our results demonstrate that a significant difference exists in LC character-istic between these two types of vehicles. The survival curve of heavy vehicles is always above that of passenger cars, and these two curves show a trend of moving away from each other and then gradually approaching. The median survival time (MST) of heavy vehicles is 0.57 s higher than passenger cars. Heavy vehicles would maintain a longer time-headway and distance-headway with preceding vehicle when changing lane, and their LC durations are less susceptible to such interactions with the preceding vehicle and more susceptible to their own speed. Finally, the main findings, modeling implications, practical applications, and future work have been discussed. We hope this paper could contribute to our further understanding of LC behaviors of heavy vehicles and passenger cars. </p>
-<h3 id="Distribution-of-heavy-vehicles-and-passenger-cars"><a href="#Distribution-of-heavy-vehicles-and-passenger-cars" class="headerlink" title="Distribution of heavy vehicles and passenger cars"></a>Distribution of heavy vehicles and passenger cars</h3><img src="/2023/03/25/laneChange2/distribution.PNG" width="600">
-
-<p><strong>Comparison of the lane-changing behavior between heavy vehicles and passenger cars</strong></p>
-<img src="/2023/03/25/laneChange2/survivalfunction.PNG" width="600">
-
-
-
+<h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><img src="02/26/paretoLTP/results.png" width="600">
 
     </div>
 
@@ -274,7 +278,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/" title="Comparative univariate and regression survival analysis of lane-changing duration characteristic for heavy vehicles and passenger cars">http://www.vehicletrajectorymining.com/2023/03/25/laneChange2/</a>
+      <a href="http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/" title="Pareto-optimal lane-changing trajectory planning in mixed traffic">http://www.vehicletrajectorymining.com/2023/02/26/paretoLTP/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -287,13 +291,10 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2023/03/01/laneChange/" rel="prev" title="Comprehensive survival analysis of lane-changing duration">
-                  <i class="fa fa-chevron-left"></i> Comprehensive survival analysis of lane-changing duration
-                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/03/28/carfollowing/" rel="next" title="Incorporating human factors into LCM using fuzzy TCI model">
-                  Incorporating human factors into LCM using fuzzy TCI model <i class="fa fa-chevron-right"></i>
+                <a href="/2023/02/26/localoptimumLTP/" rel="next" title="Automatic lane-changing motion planning from self-optimum to local-optimum">
+                  Automatic lane-changing motion planning from self-optimum to local-optimum <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>

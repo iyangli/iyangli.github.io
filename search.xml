@@ -102,8 +102,58 @@
       <link href="/2023/02/27/intro/"/>
       <url>/2023/02/27/intro/</url>
       
-        <content type="html"><![CDATA[<p>The following are personal research results and shall not be forwarded without permission.</p><h2 id="Lane-changing-Behavior-（换道行为挖掘与建模）"><a href="#Lane-changing-Behavior-（换道行为挖掘与建模）" class="headerlink" title="Lane-changing Behavior （换道行为挖掘与建模）"></a>Lane-changing Behavior （换道行为挖掘与建模）</h2><h3 id="换道行为示意图"><a href="#换道行为示意图" class="headerlink" title="换道行为示意图"></a>换道行为示意图</h3><img src="/2023/02/27/intro/lane-changing.PNG" width="600"><h3 id="变量特征热力图"><a href="#变量特征热力图" class="headerlink" title="变量特征热力图"></a>变量特征热力图</h3><img src="/2023/02/27/intro/heatmap.png" width="600"><h3 id="换道时长"><a href="#换道时长" class="headerlink" title="换道时长"></a>换道时长</h3><img src="/2023/02/27/intro/truckcarLCD.png" width="600"><h3 id="基于生存分析的换道行为差异研究"><a href="#基于生存分析的换道行为差异研究" class="headerlink" title="基于生存分析的换道行为差异研究"></a>基于生存分析的换道行为差异研究</h3><img src="/2023/02/27/intro/survivalcurve.PNG" width="500"><h3 id="换道行为影响"><a href="#换道行为影响" class="headerlink" title="换道行为影响"></a>换道行为影响</h3><img src="/2023/02/27/intro/trafficflowdensity.png" width="600"><h2 id="Car-following-Behavior-（跟驰行为挖掘与建模）"><a href="#Car-following-Behavior-（跟驰行为挖掘与建模）" class="headerlink" title="Car-following Behavior （跟驰行为挖掘与建模）"></a>Car-following Behavior （跟驰行为挖掘与建模）</h2><h3 id="跟车轨迹挖掘"><a href="#跟车轨迹挖掘" class="headerlink" title="跟车轨迹挖掘"></a>跟车轨迹挖掘</h3><table><thead><tr><th align="center"><img src="/2023/02/27/intro/carfollowing.png" alt="carfollowing"></th><th align="center"><img src="/2023/02/27/intro/cfdistribution.png" alt="cfdistribution"></th></tr></thead><tbody><tr><td align="center">NGSIM数据集前后车轨迹提取</td><td align="center">特征变量拟合</td></tr></tbody></table><h3 id="跟驰模型标定"><a href="#跟驰模型标定" class="headerlink" title="跟驰模型标定"></a>跟驰模型标定</h3><img src="/2023/02/27/intro/calibration.PNG" width="500"><h3 id="跟车行为人因建模"><a href="#跟车行为人因建模" class="headerlink" title="跟车行为人因建模"></a>跟车行为人因建模</h3><img src="/2023/02/27/intro/drivingbehavior.PNG" width="600"><h2 id="Merging-Behavior-汇入行为挖掘与建模）"><a href="#Merging-Behavior-汇入行为挖掘与建模）" class="headerlink" title="Merging Behavior (汇入行为挖掘与建模）"></a>Merging Behavior (汇入行为挖掘与建模）</h2><h3 id="汇入行为分析框架"><a href="#汇入行为分析框架" class="headerlink" title="汇入行为分析框架"></a>汇入行为分析框架</h3><img src="/2023/02/27/intro/merging.png" width="600"><h3 id="汇入高精地图"><a href="#汇入高精地图" class="headerlink" title="汇入高精地图"></a>汇入高精地图</h3><img src="/2023/02/27/intro/HDM.png" width="600"><h3 id="基于JS散度的汇入行为挖掘"><a href="#基于JS散度的汇入行为挖掘" class="headerlink" title="基于JS散度的汇入行为挖掘"></a>基于JS散度的汇入行为挖掘</h3><img src="/2023/02/27/intro/JSmerging.png" width="800"><h3 id="宏观交通流与微观汇入特性差异"><a href="#宏观交通流与微观汇入特性差异" class="headerlink" title="宏观交通流与微观汇入特性差异"></a>宏观交通流与微观汇入特性差异</h3><img src="/2023/02/27/intro/macroandmicro.png" width="800">]]></content>
+        <content type="html"><![CDATA[<p>The following are personal research results and shall not be forwarded without permission.</p><h2 id="Lane-changing-Behavior-（换道行为挖掘与建模）"><a href="#Lane-changing-Behavior-（换道行为挖掘与建模）" class="headerlink" title="Lane-changing Behavior （换道行为挖掘与建模）"></a>Lane-changing Behavior （换道行为挖掘与建模）</h2><h3 id="换道行为示意图"><a href="#换道行为示意图" class="headerlink" title="换道行为示意图"></a>换道行为示意图</h3><img src="02/27/intro/lane-changing.PNG" width="600"><h3 id="变量特征热力图"><a href="#变量特征热力图" class="headerlink" title="变量特征热力图"></a>变量特征热力图</h3><img src="02/27/intro/heatmap.png" width="600"><h3 id="换道时长"><a href="#换道时长" class="headerlink" title="换道时长"></a>换道时长</h3><img src="02/27/intro/truckcarLCD.png" width="600"><h3 id="基于生存分析的换道行为差异研究"><a href="#基于生存分析的换道行为差异研究" class="headerlink" title="基于生存分析的换道行为差异研究"></a>基于生存分析的换道行为差异研究</h3><img src="02/27/intro/survivalcurve.PNG" width="500"><h3 id="换道行为影响"><a href="#换道行为影响" class="headerlink" title="换道行为影响"></a>换道行为影响</h3><img src="02/27/intro/trafficflowdensity.png" width="600"><h2 id="Car-following-Behavior-（跟驰行为挖掘与建模）"><a href="#Car-following-Behavior-（跟驰行为挖掘与建模）" class="headerlink" title="Car-following Behavior （跟驰行为挖掘与建模）"></a>Car-following Behavior （跟驰行为挖掘与建模）</h2><h3 id="跟车轨迹挖掘"><a href="#跟车轨迹挖掘" class="headerlink" title="跟车轨迹挖掘"></a>跟车轨迹挖掘</h3><table><thead><tr><th align="center"><img src="02/27/intro/carfollowing.png" alt="carfollowing"></th><th align="center"><img src="02/27/intro/cfdistribution.png" alt="cfdistribution"></th></tr></thead><tbody><tr><td align="center">NGSIM数据集前后车轨迹提取</td><td align="center">特征变量拟合</td></tr></tbody></table><h3 id="跟驰模型标定"><a href="#跟驰模型标定" class="headerlink" title="跟驰模型标定"></a>跟驰模型标定</h3><img src="02/27/intro/calibration.PNG" width="500"><h3 id="跟车行为人因建模"><a href="#跟车行为人因建模" class="headerlink" title="跟车行为人因建模"></a>跟车行为人因建模</h3><img src="02/27/intro/drivingbehavior.PNG" width="600"><h2 id="Merging-Behavior-汇入行为挖掘与建模）"><a href="#Merging-Behavior-汇入行为挖掘与建模）" class="headerlink" title="Merging Behavior (汇入行为挖掘与建模）"></a>Merging Behavior (汇入行为挖掘与建模）</h2><h3 id="汇入行为分析框架"><a href="#汇入行为分析框架" class="headerlink" title="汇入行为分析框架"></a>汇入行为分析框架</h3><img src="02/27/intro/merging.png" width="600"><h3 id="汇入高精地图"><a href="#汇入高精地图" class="headerlink" title="汇入高精地图"></a>汇入高精地图</h3><img src="02/27/intro/HDM.png" width="600"><h3 id="基于JS散度的汇入行为挖掘"><a href="#基于JS散度的汇入行为挖掘" class="headerlink" title="基于JS散度的汇入行为挖掘"></a>基于JS散度的汇入行为挖掘</h3><img src="02/27/intro/JSmerging.png" width="800"><h3 id="宏观交通流与微观汇入特性差异"><a href="#宏观交通流与微观汇入特性差异" class="headerlink" title="宏观交通流与微观汇入特性差异"></a>宏观交通流与微观汇入特性差异</h3><img src="02/27/intro/macroandmicro.png" width="800">]]></content>
       
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Automatic lane-changing motion planning from self-optimum to local-optimum</title>
+      <link href="/2023/02/26/localoptimumLTP/"/>
+      <url>/2023/02/26/localoptimumLTP/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@article&#123;</span><br><span class="line">    Yang Li, 2022</span><br><span class="line">    title=&#123;Automatic lane-changing motion planning: from self-optimum to local-optimum&#125;, </span><br><span class="line">    author=&#123;Yang Li and Linbo Li and Daiheng Ni and Wenxuan Wang&#125;,</span><br><span class="line">    year=&#123;2022&#125;,</span><br><span class="line">    journal=&#123;IEEE Transactions on Intelligent Transportation Systems&#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>Existing lane-changing (LC) algorithms in general prioritize self-interest above the beneﬁts of others. We argue that an autonomous vehicle should be socially responsible during lane change without causing excessive impact on its surroundings. Thus, in this paper, we propose an LC algorithm that could generate a trajectory to optimize the overall beneﬁts of the subject vehicle and others in its vicinity. This is mainly achieved by introducing Longitudinal Control Model to characterize the driving behaviors of neighboring vehicles, and drivers’ needs such as comfort, efﬁciency, and safety are simultaneously satisﬁed. We combine macro and micro comparative analysis to evaluate the advantage of our approach against existing algorithms. Our ﬁndings reveal that the vehicle controlled by our algorithm is capable of safely performing the LC maneuver while causing the least amount of impact. This is reﬂected in the decrease in total cost of all vehicles and the increase in trafﬁc speed and throughput in its vicinity. In addition, we use HighD dataset for further validation and demonstrate that our algorithm is prac-tically sound. Application of this research can lead to improved autonomous driving technology.</p><h3 id="Framework"><a href="#Framework" class="headerlink" title="Framework"></a>Framework</h3><img src="02/26/localoptimumLTP/framework.png" width="800"><h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><img src="02/26/localoptimumLTP/results.png" width="800">]]></content>
+      
+      
+      <categories>
+          
+          <category> lane-changing behavior </category>
+          
+          <category> HighD dataset </category>
+          
+          <category> lane-changing decision-making </category>
+          
+          <category> motion-planning </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pareto-optimal lane-changing trajectory planning in mixed traffic</title>
+      <link href="/2023/02/26/paretoLTP/"/>
+      <url>/2023/02/26/paretoLTP/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@article&#123;</span><br><span class="line">    Yang Li, 2022, arXiv:2109.06080, 2021.</span><br><span class="line">    title=&#123;Pareto-optimal lane-changing trajectory planning in mixed traffic&#125;, </span><br><span class="line">    author=&#123;Yang Li and Linbo Li and Daiheng Ni&#125;,</span><br><span class="line">    year=&#123;2022&#125;,</span><br><span class="line">    archivePrefix=&#123;arXiv&#125;,</span><br><span class="line">    primaryClass=&#123;cs.RO&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>This paper applies the pareto-optimal concept to LC (lane-changing) motion planning in the presence of mixed traffic including manual and autonomous vehicles. Firstly, a multiobjective optimization problem is presented, in which the comfort, efficiency and safety of the LC vehicle and the surrounding vehicles are jointly modelled. Thereafter, the pareto-optimal solutions are obtained through employing the NSGA-II (Non-dominated Sorting Genetic -II) algorithm. Finally, the experiment section analyzes the (macroscopic and microscopic) lane-changing impact from a pareto-optimal perspective. Also, a comprehensive sensitivity analysis is conducted. Our results demonstrate that our algorithm could significantly reduce the lane-changing impact within its region, and the total costs are reduced in the range of 10.94% to 48.66%. This paper could be considered as a preliminary research framework for the application of the pareto-optimal concept. We hope this research will provide valuable insights into autonomous driving technology.</p><h3 id="Framework"><a href="#Framework" class="headerlink" title="Framework"></a>Framework</h3><img src="02/26/paretoLTP/framework.png" width="600"><h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><img src="02/26/paretoLTP/results.png" width="600">]]></content>
+      
+      
+      <categories>
+          
+          <category> lane-changing behavior </category>
+          
+          <category> HighD dataset </category>
+          
+          <category> lane-changing decision-making </category>
+          
+          <category> motion-planning </category>
+          
+      </categories>
       
       
     </entry>
